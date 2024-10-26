@@ -1,0 +1,31 @@
+.button-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px;
+  margin: 20px; 
+}
+
+button {
+  background-color: transparent; 
+  border: none; 
+  cursor: pointer; 
+  padding: 10px;
+}
+
+button img {
+  width: 90px;
+  height: 90px; 
+  transition: transform 0.3s ease;
+  border-radius: 50px;
+}
+
+button:hover img {
+  transform: scale(1.1); 
+}
+
+#reset {
+  background-color: red;
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+}
